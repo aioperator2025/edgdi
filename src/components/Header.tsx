@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLanguage, LANGUAGES } from '@/hooks/useLanguage';
-import { Menu, X, Globe, Facebook, Linkedin } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 
 const translations = {
   fr: {
@@ -69,8 +69,7 @@ const Header = () => {
               />
             </a>
             <div className="hidden sm:block">
-              <h1 className="text-lg lg:text-xl font-bold text-slate-800">E-DGDI</h1>
-              <p className="text-xs lg:text-sm text-slate-600">{t.brand}</p>
+              {/* Suppression du titre E-DGDI */}
             </div>
           </div>
 
