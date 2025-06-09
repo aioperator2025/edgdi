@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '@/hooks/useLanguage';
-import { MapPin, Phone, Mail, Clock, User, Facebook, Linkedin } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, User, Facebook, Linkedin, Instagram } from 'lucide-react';
 
 const translations = {
   fr: {
@@ -100,7 +100,8 @@ const Footer = () => {
           {/* Réseaux sociaux développeur */}
           <div className="flex gap-3 mt-2">
             <a href="https://www.facebook.com/OgoulaJesse/" target="_blank" rel="noopener noreferrer" aria-label="Facebook développeur" className="hover:text-emerald-400 text-slate-300"><Facebook className="w-5 h-5" /></a>
-            <a href="https://www.linkedin.com/in/ogoulajesse/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn développeur" className="hover:text-emerald-400 text-slate-300"><Linkedin className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/in/ogoula-jesse/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn développeur" className="hover:text-emerald-400 text-slate-300"><Linkedin className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/mostclient/" target="_blank" rel="noopener noreferrer" aria-label="Instagram développeur" className="hover:text-emerald-400 text-slate-300"><Instagram className="w-5 h-5" /></a>
           </div>
         </div>
       </div>
