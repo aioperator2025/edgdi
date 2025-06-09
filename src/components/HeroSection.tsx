@@ -66,7 +66,7 @@ const HeroSection = () => {
         </svg>
       </div>
 
-      <div className="relative container mx-auto px-3 sm:px-4 lg:px-6 py-8 lg:py-12">
+      <div className="relative container mx-auto px-3 sm:px-4 lg:px-6 py-8 lg:py-6">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 items-center">
           {/* Content */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
